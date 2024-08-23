@@ -1,3 +1,6 @@
-a="framework 3"
+
+
+
+a="secOND tym" 
 b="python"
 print(a,b)
