@@ -1,3 +1,3 @@
-a="sakthi"
+a="github"
 b="python"
 print(a,b)
