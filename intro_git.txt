@@ -1,0 +1,60 @@
+GIT-      VERSION CONTROL TOOL ,CONTAIN MANY SAVEPOINTS,CODE SYNCHRONISE
+GITHUB- HOST REPOSITORY
+VERSION CONTROL- KEEP TRACK THE CODE 
+         GIT COMMANDS- 
+         1)git clone 
+*git clone<our new repo url>
+*cd repo name
+*code . -vs code open
+        2)git add
+*git add (file_name)
+*git status
+*git commit -m 'change sname'
+*git push
+ 
+        3)GIT PULL -(to take the modifyed code) -change our vs code file
+*git pull
+
+    4)GIT ADD -adding and commit multiple file in at a time
+*git commit -am "double qut"
+
+    5)MERGE COMPLICT 
+(
+* same time, same file , we change in vs code la one change [commit but does not push],and we change in github one change ) finally we pull the code that tym we arrise that error ,see vs code like 
+
+{<<<<<<< HEAD
+a="framework 3" ---->THIS IS LOCAL CHANGE
+=======
+a="sec tym"   ----> THIS IS GITHU CHANGE
+>>>>>>> 2a4a096d06813e5d9348087ec8c01f2cad732459
+b="python"}
+
+* at this tym we erace >=< take one a value    
+
+            *GIT RESET
+*git reset --hard "(commit hash value past here)" moved to that version
+*git reset --hard origin/master
+
+
+            GIT BRANCH
+        view all branch 
+* git BRANCH
+     to create new BRANCH
+* git checkout -b "newbranch"
+      to move another BRANCH
+*git chenckout branchname
+and commit eveything
+
+                GIT MERGE
+* git merge newbranch --->join main and branch code 
+
+
+
+
+
+
+
+
+
+
+
