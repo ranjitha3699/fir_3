@@ -1,9 +1,4 @@
 
-a="github har"
-
-
-
-
-
+a="githu"
 b="python"
 print(a,b)
