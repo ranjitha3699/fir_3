@@ -1,6 +1,6 @@
 
 
 
-a="second tym" 
+a="second" 
 b="python"
 print(a,b)
